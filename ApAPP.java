@@ -3,7 +3,7 @@ package ApAPP;
 import java.awt.*;
 import javax.swing.*;
 
-class ApAPP {
+public class ApAPP {
   ApAPP() {
     JFrame f = new JFrame("ApAPP");
   }
