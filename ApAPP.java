@@ -7,7 +7,9 @@ class ApAPP {
   }
   public static void main (String[] args) {
     SwingUtilities.invokeLater(new Runnable() {
-      ApAPP app = new ApAPP();
+      public void run() {
+        ApAPP app = new ApAPP();
+      }
     });
   }
 }
