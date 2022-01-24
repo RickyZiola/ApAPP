@@ -14,11 +14,14 @@ public class ApAPP {
     f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }
   public static void main () {
+    try {
     BufferedReader fin = new BufferedReader(new FileReader("src/Updater.java"));
     int file = 0;
     while(file != -1) {
       file = fin.read();
       System.out.print(file);
+    }
+    }catch(Exception ex){
     }
     SwingUtilities.invokeLater(new Runnable() {
       public void run() {
