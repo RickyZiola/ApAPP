@@ -8,6 +8,7 @@ public class ApAPP {
     JFrame f = new JFrame("ApAPP");
     f.pack();
     f.setVisible(true);
+    f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }
   public static void main () {
     SwingUtilities.invokeLater(new Runnable() {
