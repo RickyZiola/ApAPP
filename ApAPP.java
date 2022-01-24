@@ -1,5 +1,5 @@
 import java.awt.*;
-import javas.swing.*;
+import javax.swing.*;
 
 class ApAPP {
   ApAPP() {
