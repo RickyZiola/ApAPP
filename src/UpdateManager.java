@@ -5,7 +5,7 @@ import java.io.*;
 
 import ApAPP.ApAPP;
 
-public class Main {
+public class UpdateManager {
   public static void main(String[] args) throws MalformedURLException {
     try {
       Desktop.getDesktop().browse(new URI("http://google.com"));
